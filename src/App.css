@@ -1,38 +1,91 @@
-.App {
+.App,
+.Artistspage {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Header img {
+  width: 500px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.relative {
+  position: relative;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.relative p {
+  position: absolute;
+  top: 70px;
+  left: 550px;
   color: white;
+  font-size: 3rem;
+  font-weight: bold;
 }
 
-.App-link {
-  color: #61dafb;
+.Browse,
+.Artistspage {
+  background-color: lightgrey;
+  width: 500px;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Browse h2 {
+  margin-top: 0;
+}
+
+.BrowseArtists {
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 25px;
+  position: relative;
+  cursor: pointer;
+}
+
+.BrowseArtists p {
+  background-color: #2196f3;
+  color: white;
+  padding: 10px;
+  position: absolute;
+  bottom: -16px;
+  left: 0;
+}
+
+.Artistspage h1 {
+  margin: 0;
+}
+
+.Artistspage hr {
+  border: 1.5px solid #2196f3;
+}
+
+.artist-image {
+  width: 150px;
+  height: 150px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+
+.albums {
+  width: 50%;
+  height: 200px;
+  float: left;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.Albums {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 30px;
+  height: 430px;
+}
+
+.Artistspage .link {
+  text-decoration: none;
+  color: black;
 }
